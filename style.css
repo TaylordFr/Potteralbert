@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'NCAA Houston Cougars';
+    src: url('NCAA\ Houston\ Cougars.ttf');
+  }
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    gap: 6.2px;
+}
+body{
+    background-color: rgb(216, 209, 183);
+    font-family: NCAA Houston Cougars;
+}
+.grid-item{ 
+    grid-row-end: 1;
+    grid-row-start: 1; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 20px;
+    text-align: end;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-right: -20px;
+    font-weight: bold;
+}
+
+.cim{
+    grid-row-end: 1;
+    grid-row-start: 1;
+    width: 550px;
+    margin-top: 10px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    
+    
+}
+.sapka{
+    width: 70px;
+    float: left;
+    margin-left: 20px;
+    }
+    .neville{
+        width: 90px;
+        float: right;
+        margin-top: 20px;
+        height: 87px;
+    }
+.grid-item1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 10;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    
+}
+.exclusive{
+    background-color: black;
+    color:rgb(216, 209, 183);;
+    
+}
+.grid-item2{
+    text-align: justify;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 2.5vw;
+    color: rgb(216, 209, 183);;
+    background-color: black;
+    margin-top: 10px;
+    
+}
+.harrypotter{
+    text-align: center;
+    margin-top: 135px;
+    letter-spacing: 2px;
+    margin-left: 11px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    color: rgb(216, 209, 183);
+    font-size: 60px;
+}
+.griditem3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    font-size: 42px;
+    text-align: justify;
+    margin-top: -20px;
+    letter-spacing: 4px;
+}
+.potterszoveg{
+    margin-right: 300px;
+    
+}
+.potteralbert{
+    float: right;
+    width: 180px;
+    margin-right: 140px;
+    margin-top: 37px;
+}
+
+.grid-item3{
+    margin-left: 20px;
+    margin-right: 220px;
+    text-align: justify;
+    margin-top: 10px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 6;
+    grid-column-end: 9;
+}
+.evek{
+    font-size: 10px;
+    
+}
+.page{
+    font-size: 30px;
+    line-height: 0;
+    margin-left: 12px;
+}
+.F{
+    width: 50px;
+    float: left;
+}
+.ujj{
+    float: left;
+    margin-top: 10px;
+    width: 80px;
+    
+}
+.grid-item5{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: justify;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 90px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+.szoveg{
+    font-size: 9px;
+    letter-spacing: 15px;
+}
+.szamok{
+    letter-spacing: 3px;
+    margin-top: -14px;
+    font-size: medium;
+}
+.elsoszam{
+    margin-left: 137px;
+    margin-top: -4px;
+}
+hr{
+    border: 1px solid black;
+}
+
+.python{
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 280px;
+    margin-top: 110px;
+    margin-left: 25px;
+    height: 290px;
+    
+}
+
+.grid-item8{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    margin-right: 140px;
+    
+}
+
+.severus{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: -5px;
+}
+.duplaw{
+    width: 80px;
+    float: left;
+}
+.professor{
+    font-weight: bold;
+    font-size: 10px;
+    text-align: justify;
+}
+    
+.grid-item10{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 10;
+    font-size: 20px;
+    
+}
+.mcszoveg{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 500px;
+    letter-spacing: 3px;
+}
+.neni{
+    float: left;
+    width: 130px;
+    height: 63px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px
+}
+
+.grid-item11{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: large;
+}
+.footer{
+    margin-top: 8px;
+    float: left;
+    width: 500px;
+    margin-left: 5px;
+}
+.masodujj{
+    margin-top: 5px;
+    float: left;
+    width: 70px;
+}
+.var{
+    margin-top: 70px;
+    width: 200px;
+    margin-left: 20px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    
+}
